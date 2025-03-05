@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="/static/js/script.js"></script>
+    <title>Launow 360 - Fabric Health Report</title>
+</head>
+<body>
+<div class="container">
+    <h1>Launow 360 - Fabric Health Report</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label>Select Before Image:</label>
+        <input type="file" name="before_img" required>
+        <label>Select After Image:</label>
+        <input type="file" name="after_img" required>
+        <button type="submit">Upload & Process</button>
+    </form>
+</div>
+</body>
+</html>
