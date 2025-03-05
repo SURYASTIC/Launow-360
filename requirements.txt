@@ -1,0 +1,6 @@
+flask==3.0.0
+opencv-python-headless==4.11.0
+scikit-image==0.22.0
+fpdf==1.7
+qrcode==7.4.2
+Pillow==10.0.0
